@@ -4,14 +4,14 @@ public class Main {
     public static void main(String[] args) {
     	Scanner sc = new Scanner(System.in);
     	
-    	int A = sc.nextInt();
-    	int B = sc.nextInt();
+    	long A = sc.nextInt();
+    	long B = sc.nextInt();
     	
-    	int result = atMark(A, B);
+    	long result = atMark(A, B);
     	System.out.println(result);
     }
     
-    public static int atMark(int A, int B) {
+    public static long atMark(long A, long B) {
     	return (A+B)*(A-B);
     }
 }
